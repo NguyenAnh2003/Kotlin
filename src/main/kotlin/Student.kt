@@ -11,7 +11,7 @@ class Student(nameStudent:String, ageStudent:Int, genderStudent:String) {
         }
     var name: String = ""
         get() = field
-        public set(value) {
+        set(value) {
             field = value
         }
     var age: Int = 0
