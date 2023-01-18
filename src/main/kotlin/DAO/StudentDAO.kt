@@ -6,7 +6,7 @@ import java.lang.Exception
 import java.sql.SQLException
 
 class StudentDAO: DaoInterface<Student> {
-    var c = MyConnector
+    private var c = MyConnector
     // help
     override fun add(s: Student) {
         try {
@@ -17,6 +17,7 @@ class StudentDAO: DaoInterface<Student> {
             query?.setString(3, "${s.gender}")
             var rs = query?.executeUpdate()
             println("$rs added")
+            c.closeConnection(connection)
         } catch (e: Exception) {
             e.printStackTrace()
         }
@@ -29,6 +30,7 @@ class StudentDAO: DaoInterface<Student> {
             query?.setString(1, "${s.name}")
             var rs = query?.executeUpdate()
             println("$rs affected")
+            c.closeConnection(connection)
         } catch (e: SQLException) {
             e.printStackTrace()
         }
@@ -54,7 +56,7 @@ class StudentDAO: DaoInterface<Student> {
 
                 }
             }
-            connection?.close()
+            c.closeConnection(connection)
         } catch (e: SQLException) {
             e.printStackTrace()
         }
@@ -75,7 +77,7 @@ class StudentDAO: DaoInterface<Student> {
                 }
             }
             l.forEach { s -> println(s.toString()) }
-            connection?.close()
+            c.closeConnection(connection)
         } catch (e: Exception) {
             e.printStackTrace()
         }

@@ -8,8 +8,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/DAO/StudentDAO.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/DAO/StudentDAO.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Menu.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Menu.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/MyConnector.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/MyConnector.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Student.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Student.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +59,7 @@
       <workItem from="1673955170673" duration="261000" />
       <workItem from="1673955570594" duration="1727000" />
       <workItem from="1673970585287" duration="1005000" />
-      <workItem from="1674003213059" duration="3876000" />
+      <workItem from="1674003213059" duration="5463000" />
     </task>
     <task id="LOCAL-00001" summary="inint commit">
       <created>1673955864932</created>

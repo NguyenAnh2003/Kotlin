@@ -2,9 +2,9 @@ import DAO.StudentDAO
 
 class Menu() {
     // help
-    var students = ArrayList<Student>() // temp
-    var sDAO = StudentDAO()
-    var menu = mutableListOf<String>("add student", "delete student", "edit student", "find student", "list of Student", "exit")
+    private var students = ArrayList<Student>() // temp
+    private var sDAO = StudentDAO()
+    private var menu = mutableListOf<String>("add student", "delete student", "edit student", "find student", "list of Student", "exit")
     fun printMenu() {
         menu.forEachIndexed { index, i -> println("${index + 1} $i") }
     }
@@ -13,7 +13,7 @@ class Menu() {
         return menu.get(index-1)
     }
 
-    fun itemSelected(index:Int) {
+     fun itemSelected(index:Int) {
         var item = index - 1
         // choice add delete edit find list
         var choice = menu.get(item)
@@ -38,7 +38,7 @@ class Menu() {
         }
     }
 
-    fun addProvider(): Student {
+    private fun addProvider(): Student {
         var name: String = ""
         var age: Int = 0
         var gender:String = ""
@@ -55,25 +55,25 @@ class Menu() {
         return Student(-1, nameStudent = name, ageStudent = age, genderStudent = gender)
     }
 
-    fun deleteProvider(): Student {
+    private fun deleteProvider(): Student {
         println("Enter name to delete: ")
         var name = readln()
         return Student(-1, name, -1, "")
     }
 
-    fun findProvider(): Student {
+    private fun findProvider(): Student {
         println("Enter name to find: ")
         var name = readln()
         return Student(-1, name, -1, "")
     }
 
-    fun editProvider(): Student {
+    private fun editProvider(): Student {
         println("Enter name to edit: ")
         var name = readln()
         return Student(-1, name, -1, "")
     }
 
-    fun listProvider() {
+    private fun listProvider() {
         try {
             sDAO.list(students)
         } catch (e: Exception) {
