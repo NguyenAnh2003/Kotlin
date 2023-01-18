@@ -1,4 +1,4 @@
-package DAO
+package StudentManagement.DAO
 
 interface DaoInterface<T> {
     //djasd

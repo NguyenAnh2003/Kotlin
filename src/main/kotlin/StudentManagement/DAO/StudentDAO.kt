@@ -1,11 +1,11 @@
-package DAO
+package StudentManagement.DAO
 
-import MyConnector
-import Student
+import StudentManagement.MyConnector
+import StudentManagement.Student
 import java.lang.Exception
 import java.sql.SQLException
 
-class StudentDAO: DaoInterface<Student> {
+ class StudentDAO: DaoInterface<Student> {
     private var c = MyConnector
     // help
     override fun add(s: Student) {
@@ -77,6 +77,7 @@ class StudentDAO: DaoInterface<Student> {
                 }
             }
             l.forEach { s -> println(s.toString()) }
+            l.removeAll(l) // remove array before loading data again
             c.closeConnection(connection)
         } catch (e: Exception) {
             e.printStackTrace()

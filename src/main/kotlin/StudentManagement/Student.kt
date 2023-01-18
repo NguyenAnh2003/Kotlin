@@ -1,3 +1,5 @@
+package StudentManagement
+
 import java.io.ObjectOutput
 
 class Student(idStudent: Int, nameStudent:String, ageStudent:Int, genderStudent:String) {
@@ -32,7 +34,7 @@ class Student(idStudent: Int, nameStudent:String, ageStudent:Int, genderStudent:
     }
 
     override fun toString(): String {
-        return "Student(name='$name', age=$age, gender='$gender')"
+        return "StudentManagement.Student(name='$name', age=$age, gender='$gender')"
     }
 
 

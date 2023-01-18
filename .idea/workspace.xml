@@ -5,9 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7121723e-fe20-4d37-8d53-4549dad55a53" name="Changes" comment="inint commit">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/pratice/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/pratice/MainProvider.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/pratice/Provider1.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/pratice/Provider2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/pratice/SubProvider.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/DAO/StudentDAO.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/DAO/StudentDAO.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Menu.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Menu.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/DAO/DaoInterface.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/StudentManagement/DAO/DaoInterface.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/DAO/StudentDAO.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/StudentManagement/DAO/StudentDAO.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/StudentManagement/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Menu.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/StudentManagement/Menu.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/MyConnector.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/StudentManagement/MyConnector.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Student.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/StudentManagement/Student.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +28,16 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+        <option value="Kotlin File" />
+        <option value="Interface" />
+        <option value="Kotlin Interface" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -26,7 +45,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2KS5Uc6hjcHssZCX1XFigX3THwd" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -48,6 +69,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Kotlin\src\main\kotlin\StudentManagement" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -59,7 +85,7 @@
       <workItem from="1673955170673" duration="261000" />
       <workItem from="1673955570594" duration="1727000" />
       <workItem from="1673970585287" duration="1005000" />
-      <workItem from="1674003213059" duration="5463000" />
+      <workItem from="1674003213059" duration="10152000" />
     </task>
     <task id="LOCAL-00001" summary="inint commit">
       <created>1673955864932</created>

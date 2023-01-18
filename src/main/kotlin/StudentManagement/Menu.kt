@@ -1,10 +1,12 @@
-import DAO.StudentDAO
+package StudentManagement
+
+import StudentManagement.DAO.StudentDAO
 
 class Menu() {
     // help
     private var students = ArrayList<Student>() // temp
     private var sDAO = StudentDAO()
-    private var menu = mutableListOf<String>("add student", "delete student", "edit student", "find student", "list of Student", "exit")
+    private var menu = mutableListOf<String>("add student", "delete student", "edit student", "find student", "list of StudentManagement.Student", "exit")
     fun printMenu() {
         menu.forEachIndexed { index, i -> println("${index + 1} $i") }
     }
@@ -18,23 +20,11 @@ class Menu() {
         // choice add delete edit find list
         var choice = menu.get(item)
         when(choice) {
-            "add student" -> {
-                var s: Student = addProvider()
-                sDAO.add(s)
-            }
-            "delete student"-> {
-                var s: Student = deleteProvider()
-                sDAO.delete(s)
-            }
-            "edit student"-> {
-                var s: Student = editProvider()
-                sDAO.edit(s)
-            }
-            "find student"-> {
-                var s: Student = findProvider()
-                sDAO.find(s)
-            }
-            "list of Student"-> listProvider()
+            "add student" -> sDAO.add(addProvider())
+            "delete student"-> sDAO.delete(deleteProvider())
+            "edit student"-> sDAO.edit(deleteProvider())
+            "find student"-> sDAO.find(findProvider())
+            "list of StudentManagement.Student"-> listProvider()
         }
     }
 
@@ -55,22 +45,25 @@ class Menu() {
         return Student(-1, nameStudent = name, ageStudent = age, genderStudent = gender)
     }
 
-    private fun deleteProvider(): Student {
-        println("Enter name to delete: ")
+    private fun provideNameUtils(text: String?): Student {
+        println(text)
         var name = readln()
         return Student(-1, name, -1, "")
+    }
+
+    private fun deleteProvider(): Student {
+        var s = provideNameUtils("Enter name to delete: ")
+        return s
     }
 
     private fun findProvider(): Student {
-        println("Enter name to find: ")
-        var name = readln()
-        return Student(-1, name, -1, "")
+        var s = provideNameUtils("Enter name to find: ")
+        return s
     }
 
     private fun editProvider(): Student {
-        println("Enter name to edit: ")
-        var name = readln()
-        return Student(-1, name, -1, "")
+        var s = provideNameUtils("Enter name to edit: ")
+        return s
     }
 
     private fun listProvider() {

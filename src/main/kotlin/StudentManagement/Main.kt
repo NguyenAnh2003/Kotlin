@@ -1,3 +1,5 @@
+package StudentManagement
+
 fun main() {
     var menu = Menu()
     menu.printMenu()
