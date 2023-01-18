@@ -52,29 +52,33 @@ class Menu() {
         } catch (e: Exception) {
             println(e.message)
         }
-        return Student(nameStudent = name, ageStudent = age, genderStudent = gender)
+        return Student(-1, nameStudent = name, ageStudent = age, genderStudent = gender)
     }
 
     fun deleteProvider(): Student {
         println("Enter name to delete: ")
         var name = readln()
-        return Student(name, -1, "")
+        return Student(-1, name, -1, "")
     }
 
     fun findProvider(): Student {
         println("Enter name to find: ")
         var name = readln()
-        return Student(name, -1, "")
+        return Student(-1, name, -1, "")
     }
 
     fun editProvider(): Student {
         println("Enter name to edit: ")
         var name = readln()
-        return Student(name, -1, "")
+        return Student(-1, name, -1, "")
     }
 
     fun listProvider() {
-        students.forEach { i -> println(i) } // static
+        try {
+            sDAO.list(students)
+        } catch (e: Exception) {
+            e.printStackTrace()
+        }
     }
 
 }

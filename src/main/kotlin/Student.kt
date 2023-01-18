@@ -1,10 +1,10 @@
 import java.io.ObjectOutput
 
-class Student(nameStudent:String, ageStudent:Int, genderStudent:String) {
+class Student(idStudent: Int, nameStudent:String, ageStudent:Int, genderStudent:String) {
     // help
-    constructor() : this("", -1, "") {}
+    constructor() : this(-1, "", -1, "") {}
 
-    var id: String = ""
+    var id: Int = 0
         get() = field
         set(value) {
             field = value
@@ -25,14 +25,14 @@ class Student(nameStudent:String, ageStudent:Int, genderStudent:String) {
             field = value
         }
     init {
-        id
+        id=idStudent
         name=nameStudent
         age=ageStudent
         gender=genderStudent
     }
 
     override fun toString(): String {
-        return "Student(id='$id', name='$name', age=$age, gender='$gender')"
+        return "Student(name='$name', age=$age, gender='$gender')"
     }
 
 
