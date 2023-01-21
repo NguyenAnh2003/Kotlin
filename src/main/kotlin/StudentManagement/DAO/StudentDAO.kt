@@ -5,7 +5,7 @@ import StudentManagement.Student
 import java.lang.Exception
 import java.sql.SQLException
 
- class StudentDAO: DaoInterface<Student> {
+ object StudentDAO: DaoInterface<Student> {
     private var c = MyConnector
     // help
     override fun add(s: Student) {

@@ -18,8 +18,13 @@ fun main() {
         }
     }
 
-
+    // testing 1
+    println("Test 1")
     provider.getProvider()
     provider2.getAlmond()
     provider2.getSubProvider()
+    // testing 2
+    println("Test 2")
+    var p2 = Provider2.smartHead()
+    var shithead = NoPurpose.leave()
 }

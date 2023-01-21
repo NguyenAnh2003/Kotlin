@@ -34,7 +34,7 @@ class Student(idStudent: Int, nameStudent:String, ageStudent:Int, genderStudent:
     }
 
     override fun toString(): String {
-        return "StudentManagement.Student(name='$name', age=$age, gender='$gender')"
+        return "Student(name='$name', age=$age, gender='$gender')"
     }
 
 

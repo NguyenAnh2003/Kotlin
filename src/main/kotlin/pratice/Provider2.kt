@@ -11,5 +11,11 @@ class Provider2: Provider1() {
         println("From provider 2")
     }
 
+    companion object {
+        fun smartHead() {
+            println("Not shit head from provider 2")
+        }
+    }
+
 
 }
