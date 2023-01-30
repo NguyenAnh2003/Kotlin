@@ -12,9 +12,9 @@ import java.sql.SQLException
         try {
             var connection = c.getConnection()
             var query = connection?.prepareStatement("insert into student (name, age, gender) values (?,?,?)")
-            query?.setString(1, "${s.name}")
-            query?.setInt(2, s.age)
-            query?.setString(3, "${s.gender}")
+            query?.setString(1, "${s.nameStudent}")
+            query?.setInt(2, s.ageStudent)
+            query?.setString(3, "${s.genderStudent}")
             var rs = query?.executeUpdate()
             println("$rs added")
             c.closeConnection(connection)
@@ -27,7 +27,7 @@ import java.sql.SQLException
         try {
             var connection = c.getConnection()
             var query = connection?.prepareStatement("delete from student where name = ?")
-            query?.setString(1, "${s.name}")
+            query?.setString(1, "${s.nameStudent}")
             var rs = query?.executeUpdate()
             println("$rs affected")
             c.closeConnection(connection)
@@ -49,7 +49,7 @@ import java.sql.SQLException
         try {
             var connection = c?.getConnection()
             var query = connection?.prepareStatement("SELECT * FROM student where name = ?")
-            query?.setString(1, "${s.name}")
+            query?.setString(1, "${s.nameStudent}")
             var rs = query?.executeQuery()
             if(rs != null) {
                 if(rs.next()) {

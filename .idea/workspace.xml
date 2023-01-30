@@ -5,15 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7121723e-fe20-4d37-8d53-4549dad55a53" name="Changes" comment="inint commit">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/StudentManagement/Utils.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/pratice/DAYS.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/pratice/NoPurpose.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/pratice/test.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/StudentManagement/DAO/StudentDAO.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/StudentManagement/DAO/StudentDAO.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/StudentManagement/Menu.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/StudentManagement/Menu.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/StudentManagement/Student.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/StudentManagement/Student.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/pratice/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/pratice/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/pratice/Provider2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/pratice/Provider2.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/pratice/NoPurpose.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/pratice/NoPurpose.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,11 +24,11 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin File" />
         <option value="Interface" />
         <option value="Kotlin Interface" />
         <option value="Kotlin Class" />
         <option value="Kotlin Object" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -55,7 +51,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/mysql-connector-java-8.0.29/mysql-connector-java-8.0.29/mysql-connector-java-8.0.29.jar&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/mysql-connector-j-8.0.32/mysql-connector-j-8.0.32/mysql-connector-j-8.0.32.jar&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -64,6 +60,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -73,18 +70,13 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="DAYSKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pratice.DAYSKt" />
+    <configuration type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="untitled.main" />
+      <shortenClasspath name="NONE" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Kotlin.DAYSKt" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -102,6 +94,22 @@
       <workItem from="1674136342065" duration="254000" />
       <workItem from="1674267029071" duration="607000" />
       <workItem from="1674283190697" duration="666000" />
+      <workItem from="1674306482086" duration="296000" />
+      <workItem from="1674389694758" duration="257000" />
+      <workItem from="1674390810660" duration="150000" />
+      <workItem from="1674391039782" duration="154000" />
+      <workItem from="1674391205577" duration="29000" />
+      <workItem from="1674404120394" duration="42000" />
+      <workItem from="1674440454322" duration="40000" />
+      <workItem from="1674487755482" duration="781000" />
+      <workItem from="1674544838275" duration="4376000" />
+      <workItem from="1674570136211" duration="33000" />
+      <workItem from="1674571601432" duration="4000" />
+      <workItem from="1674572002939" duration="3831000" />
+      <workItem from="1674617174276" duration="349000" />
+      <workItem from="1674635067365" duration="718000" />
+      <workItem from="1674637224195" duration="150000" />
+      <workItem from="1674738672466" duration="1677000" />
     </task>
     <task id="LOCAL-00001" summary="inint commit">
       <created>1673955864932</created>
